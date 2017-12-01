@@ -1,0 +1,10 @@
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/obj/Debug/MovieSearch.csproj.CoreCompileInputs.cache
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/MovieSearch.dll
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/MovieSearch.pdb
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/DM.MovieApi.dll
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/Newtonsoft.Json.dll
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/DM.MovieApi.pdb
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/DM.MovieApi.xml
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/bin/Debug/Newtonsoft.Json.xml
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/obj/Debug/MovieSearch.dll
+/Users/egill/Projects/MovieSearchSolution/MovieSearch/obj/Debug/MovieSearch.pdb

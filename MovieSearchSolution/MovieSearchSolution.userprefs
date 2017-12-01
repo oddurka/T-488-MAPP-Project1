@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{966722A7-B0F0-44AA-B0E8-3F0D7A74CD60}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Controllers/TopRatedMovieController.cs">
+    <Files>
+      <File FileName="iOS/Controllers/ViewController.cs" Line="62" Column="165" />
+      <File FileName="iOS/Controllers/MovieDetailsController.cs" Line="39" Column="1" />
+      <File FileName="iOS/Controllers/MovieListController.cs" Line="24" Column="9" />
+      <File FileName="iOS/Controllers/MovieListDataSource.cs" Line="16" Column="64" />
+      <File FileName="iOS/AppDelegate.cs" Line="37" Column="98" />
+      <File FileName="iOS/Controllers/TopRatedMovieController.cs" Line="45" Column="57" />
+      <File FileName="iOS/FilmAPISearch.cs" Line="27" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MovieSearch.Droid PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MovieSearch.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A6C900A3-CA66-41A0-B0C7-275B89D3193C">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MovieSearch.iOS>
+</Properties>
