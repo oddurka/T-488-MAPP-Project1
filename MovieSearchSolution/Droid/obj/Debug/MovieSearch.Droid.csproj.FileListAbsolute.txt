@@ -21,3 +21,29 @@
 /Users/egill/Projects/MovieSearchSolution/Droid/obj/Debug/res/mipmap-xxxhdpi/icon.png
 /Users/egill/Projects/MovieSearchSolution/Droid/obj/Debug/R.cs.flag
 /Users/egill/Projects/MovieSearchSolution/Droid/obj/Debug/uploadflags.txt
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\MovieSearch.Droid.dll
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\MovieSearch.Droid.pdb
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\is.ru.mapp.MovieSearch.apk
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\is.ru.mapp.MovieSearch-Signed.apk
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\DM.MovieApi.dll
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\MovieSearch.dll
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\MovieSearch.pdb
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\DM.MovieApi.pdb
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\DM.MovieApi.xml
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\DM.MovieApi.dll.mdb
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.csprojResolveAssemblyReference.cache
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.csproj.CoreCompileInputs.cache
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.dll
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.pdb
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\android\bin\is.ru.mapp.MovieSearch.apk
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\main.xml
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\values\strings.xml
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-hdpi\icon.png
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-mdpi\icon.png
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-xhdpi\icon.png
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-xxhdpi\icon.png
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-xxxhdpi\icon.png
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\R.cs.flag
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\uploadflags.txt

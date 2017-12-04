@@ -7,7 +7,7 @@ using DM.MovieApi.ApiResponse;
 using DM.MovieApi.MovieDb.Movies;
 using UIKit;
 using System.Net.Http;
-using MovieDownload;
+//using MovieDownload;
 using System.Threading;
 using System.IO;
 

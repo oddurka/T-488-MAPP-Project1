@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -98,17 +98,23 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\movieSearcher3000_icon120x120.png" />
-    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\movieSearcher3000_portrait640x960.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\movieSearcher3000_icon120x120.png">
+      <InProject>false</InProject>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\movieSearcher3000_portrait640x960.png">
+      <InProject>false</InProject>
+    </ImageAsset>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
     <InterfaceDefinition Include="Main.storyboard" />
@@ -119,6 +125,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FilmAPISearch.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Controllers\MovieListController.cs" />
@@ -128,7 +135,6 @@
     <Compile Include="Controllers\MovieDetailsController.cs" />
     <Compile Include="Controllers\TabBarController.cs" />
     <Compile Include="Controllers\TopRatedMovieController.cs" />
-    <Compile Include="FilmAPISearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Park Lane NF.ttf" />
@@ -140,5 +146,6 @@
     <BundleResource Include="Resources\movieSearcher3000_portrait640x960.png" />
   </ItemGroup>
   <Import Project="..\..\..\Downloads\2017-T-488-MAPP-master\Projects\MovieDownload\MovieDownload.projitems" Label="Shared" Condition="Exists('..\..\..\Downloads\2017-T-488-MAPP-master\Projects\MovieDownload\MovieDownload.projitems')" />
+  <Import Project="..\MovieDownload\MovieDownload.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
