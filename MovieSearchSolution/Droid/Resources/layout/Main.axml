@@ -18,14 +18,8 @@
         android:id="@+id/movieInputEditText"
         android:hint="eg. Star Wars" />
     <Button
-        android:text="Get Movie"
+        android:text="Get Movies"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/getMovieButton" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/outputViewText"
-        android:textSize="30dp"
-        android:layout_marginTop="20dp" />
 </LinearLayout>

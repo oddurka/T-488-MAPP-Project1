@@ -15,6 +15,7 @@ C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\M
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\bin\Debug\DM.MovieApi.pdb
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\bin\Debug\DM.MovieApi.xml
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\obj\Debug\MovieSearch.csprojResolveAssemblyReference.cache
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\obj\Debug\MovieSearch.csproj.CoreCompileInputs.cache
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\obj\Debug\MovieSearch.dll
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\MovieSearch\obj\Debug\MovieSearch.pdb

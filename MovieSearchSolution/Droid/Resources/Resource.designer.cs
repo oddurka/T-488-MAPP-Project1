@@ -41,20 +41,48 @@ namespace MovieSearch.Droid
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int blue = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int green = 2130968577;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050002
-			public const int getMovieButton = 2131034114;
+			// aapt resource value: 0x7f070005
+			public const int actors = 2131165189;
 			
-			// aapt resource value: 0x7f050000
-			public const int instructionTextView = 2131034112;
+			// aapt resource value: 0x7f070002
+			public const int getMovieButton = 2131165186;
 			
-			// aapt resource value: 0x7f050001
-			public const int movieInputEditText = 2131034113;
+			// aapt resource value: 0x7f070000
+			public const int instructionTextView = 2131165184;
 			
-			// aapt resource value: 0x7f050003
-			public const int outputViewText = 2131034115;
+			// aapt resource value: 0x7f070003
+			public const int listItem = 2131165187;
+			
+			// aapt resource value: 0x7f070001
+			public const int movieInputEditText = 2131165185;
+			
+			// aapt resource value: 0x7f070006
+			public const int posterPath = 2131165190;
+			
+			// aapt resource value: 0x7f070004
+			public const int title = 2131165188;
 			
 			static Id()
 			{
@@ -72,6 +100,9 @@ namespace MovieSearch.Droid
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
 			
+			// aapt resource value: 0x7f030001
+			public const int MovieListItem = 2130903041;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -88,6 +119,9 @@ namespace MovieSearch.Droid
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
 			
+			// aapt resource value: 0x7f020001
+			public const int shawshank = 2130837505;
+			
 			static Mipmap()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -101,11 +135,11 @@ namespace MovieSearch.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int app_name = 2131034113;
 			
-			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int hello = 2131034112;
 			
 			static String()
 			{
@@ -113,6 +147,25 @@ namespace MovieSearch.Droid
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int MyTheme = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int MyTheme_Splash = 2131099649;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
