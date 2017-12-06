@@ -24,16 +24,29 @@ namespace MovieSearch.Droid
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            Movies = new FilmCollection();
+
             var movieInputField = this.FindViewById<EditText>(Resource.Id.movieInputEditText);
             var searchBtn = this.FindViewById<Button>(Resource.Id.getMovieButton);
 
             // Get our button from the layout resource,
             // and attach an event to it
-            searchBtn.Click += async (object sender, EventArgs e) =>
+            searchBtn.Click += /*async*/ (object sender, EventArgs e) =>
             {
-                Movies._movies = await FilmAPISearches.PopulateMovieListAsync(FilmAPISearches.movieApi, await FilmAPISearches.movieApi.SearchByTitleAsync(movieInputField.Text));
+                //Movies._movies = await FilmAPISearches.PopulateMovieListAsync(FilmAPISearches.movieApi, await FilmAPISearches.movieApi.SearchByTitleAsync(movieInputField.Text));
                 var manager = (InputMethodManager)this.GetSystemService(InputMethodService);
                 manager.HideSoftInputFromWindow(movieInputField.WindowToken, 0);
+
+                Movies._movies.Add(new Film()
+                {
+                    Title = "test",
+                    ReleaseYear = 1234,
+                    Runtime = "90",
+                    Genre = new List<string>() { "genre"},
+                    Actors = new List<string>() { "actor"},
+                    Description = "test description",
+                    PosterPath = "test PosterPath"
+                });
 
                 var intent = new Intent(this, typeof(MovieListActivity));
                 intent.PutExtra("movieList", JsonConvert.SerializeObject(Movies._movies));

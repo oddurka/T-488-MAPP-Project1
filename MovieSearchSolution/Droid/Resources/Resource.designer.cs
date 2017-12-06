@@ -63,8 +63,11 @@ namespace MovieSearch.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070005
-			public const int actors = 2131165189;
+			// aapt resource value: 0x7f070008
+			public const int actors = 2131165192;
+			
+			// aapt resource value: 0x7f070007
+			public const int description = 2131165191;
 			
 			// aapt resource value: 0x7f070002
 			public const int getMovieButton = 2131165186;
@@ -78,11 +81,14 @@ namespace MovieSearch.Droid
 			// aapt resource value: 0x7f070001
 			public const int movieInputEditText = 2131165185;
 			
-			// aapt resource value: 0x7f070006
-			public const int posterPath = 2131165190;
-			
 			// aapt resource value: 0x7f070004
-			public const int title = 2131165188;
+			public const int posterPath = 2131165188;
+			
+			// aapt resource value: 0x7f070006
+			public const int runtimeAndGenre = 2131165190;
+			
+			// aapt resource value: 0x7f070005
+			public const int title = 2131165189;
 			
 			static Id()
 			{
@@ -101,7 +107,10 @@ namespace MovieSearch.Droid
 			public const int Main = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int MovieListItem = 2130903041;
+			public const int MovieDetails = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int MovieListItem = 2130903042;
 			
 			static Layout()
 			{
@@ -156,9 +165,6 @@ namespace MovieSearch.Droid
 			
 			// aapt resource value: 0x7f060000
 			public const int MyTheme = 2131099648;
-			
-			// aapt resource value: 0x7f060001
-			public const int MyTheme_Splash = 2131099649;
 			
 			static Style()
 			{
