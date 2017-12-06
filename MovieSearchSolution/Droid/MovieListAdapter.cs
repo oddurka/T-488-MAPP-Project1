@@ -1,14 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 using Android.App;
-using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Com.Bumptech.Glide;
 
 namespace MovieSearch.Droid
 {
@@ -37,9 +33,8 @@ namespace MovieSearch.Droid
 
             var movie = this._movieList[position];
             view.FindViewById<TextView>(Resource.Id.title).Text = movie.Title;
-            view.FindViewById<TextView>(Resource.Id.actors).Text = String.Join(",", movie.Actors);
-            var resourceId = this._context.Resources.GetIdentifier(movie.PosterPath, "drawable", this._context.PackageName);
-            view.FindViewById<ImageView>(Resource.Id.posterPath).SetBackgroundResource(resourceId);
+            view.FindViewById<TextView>(Resource.Id.actors).Text = String.Join(", ", movie.Actors);
+            Glide.With(this._context).Load(movie.PosterPath).Into(view.FindViewById<ImageView>(Resource.Id.posterPath));
 
             return view;
         }
@@ -47,11 +42,5 @@ namespace MovieSearch.Droid
         public override int Count => this._movieList.Count;
 
         public override Film this[int position] => this._movieList[position];
-    }
-
-    class MovieListAdapterViewHolder : Java.Lang.Object
-    {
-        //Your adapter views to re-use
-        //public TextView Title { get; set; }
     }
 }

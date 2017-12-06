@@ -10,10 +10,11 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Newtonsoft.Json;
+using Com.Bumptech.Glide;
 
 namespace MovieSearch.Droid
 {
-    [Activity(Label = "MovieDetailsActivity", Theme = "@style/MyTheme")]
+    [Activity(Label = "Movie Info", Theme = "@style/MyTheme")]
     public class MovieDetailsActivity : Activity
     {
         private Film _movie;
@@ -34,8 +35,9 @@ namespace MovieSearch.Droid
             var movieDescription = this.FindViewById<TextView>(Resource.Id.description);
 
             movieTitle.Text = this._movie.Title + "(" + this._movie.ReleaseYear + ")";
-            movieRuntimeAndGenre.Text = this._movie.Runtime.ToString() + " min | " + String.Join(",", this._movie.Genre);
+            movieRuntimeAndGenre.Text = this._movie.Runtime.ToString() + " min | " + String.Join(", ", this._movie.Genre);
             movieDescription.Text = this._movie.Description;
+            Glide.With(this).Load(this._movie.PosterPath).Into(this.FindViewById<ImageView>(Resource.Id.posterPath));
         }
     }
 }

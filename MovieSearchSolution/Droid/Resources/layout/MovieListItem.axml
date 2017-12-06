@@ -4,28 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp">
+    <ImageView
+        android:id="@+id/posterPath"
+        android:layout_width="29dp"
+        android:layout_height="43dp"
+        android:layout_marginRight="5dp"
+        android:background="@mipmap/placeholder"
+        android:layout_alignParentLeft="true" />
     <TextView
         android:text="The Shawshank Redemption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="serif-monospace"
-        android:textSize="22dp"
+        android:fontFamily="papyrus"
+        android:textSize="20dp"
         android:textColor="@color/blue"
-        android:id="@+id/title" />
+        android:id="@+id/title"
+        android:layout_toRightOf="@+id/posterPath" />
     <TextView
         android:text="Actors"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
-        android:textSize="16dp"
+        android:textSize="12dp"
         android:textColor="@color/green"
         android:id="@+id/actors"
         android:layout_below="@id/title"
-        android:layout_alignRight="@id/title" />
-    <ImageView
-        android:id="@+id/posterPath"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:background="@mipmap/shawshank"
-        android:layout_alignParentRight="true" />
+        android:layout_alignLeft="@id/title" />
 </RelativeLayout>

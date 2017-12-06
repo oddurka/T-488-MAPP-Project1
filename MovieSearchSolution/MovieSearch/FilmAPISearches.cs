@@ -15,6 +15,11 @@ namespace MovieSearch
         {
             List<Film> movies = new List<Film>();
 
+            if(apiResponse == null)
+            {
+                return movies;
+            }
+
             foreach (MovieInfo info in apiResponse.Results)
             {
                 ApiQueryResponse<MovieCredit> castResponse = await movieApi.GetCreditsAsync(info.Id);

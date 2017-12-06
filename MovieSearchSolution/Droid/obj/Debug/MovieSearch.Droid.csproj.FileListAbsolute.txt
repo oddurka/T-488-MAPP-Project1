@@ -1,1 +1,3 @@
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.csprojResolveAssemblyReference.cache
+C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.csprojResolveAssemblyReference.cache
+C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\MovieSearch.Droid.csproj.CoreCompileInputs.cache

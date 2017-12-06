@@ -37,3 +37,21 @@ C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\M
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.csproj.CoreCompileInputs.cache
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.exe
 C:\Users\Oddur Kröyer\Documents\Skole\Þróun Smáforrita\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.pdb
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.xml
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\MovieSearch.iOS.exe
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\MovieSearch.iOS.pdb
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\DM.MovieApi.dll
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\MovieSearch.dll
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\MovieSearch.pdb
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\DM.MovieApi.pdb
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\DM.MovieApi.xml
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\bin\iPhoneSimulator\Debug\DM.MovieApi.dll.mdb
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\optimized\
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.csprojResolveAssemblyReference.cache
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.csproj.CoreCompileInputs.cache
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.exe
+C:\T-488-MAPP-Project1\MovieSearchSolution\iOS\obj\iPhoneSimulator\Debug\MovieSearch.iOS.pdb

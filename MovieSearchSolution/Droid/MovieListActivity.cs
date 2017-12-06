@@ -13,7 +13,7 @@ using Newtonsoft.Json;
 
 namespace MovieSearch.Droid
 {
-    [Activity(Label = "MovieListActivity", Theme = "@style/MyTheme")]
+    [Activity(Label = "Movie List", Theme = "@style/MyTheme")]
     public class MovieListActivity : ListActivity
     {
         private List<Film> _movieList;

@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp">
-    <TextView
-        android:text="Enter Words In Movie Title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/instructionTextView"
-        android:layout_marginTop="20dp" />
-    <EditText
-        android:inputType="textPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/movieInputEditText"
-        android:hint="eg. Star Wars" />
-    <Button
-        android:text="Get Movies"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/getMovieButton" />
-</LinearLayout>
+    android:layout_height="match_parent">
+  <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+  
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_content"
+    android:layout_below="@id/toolbar">
+    <android.support.design.widget.TabLayout
+      android:id="@+id/sliding_tabs"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      local:tabMode="scrollable" />
+    <android.support.v4.view.ViewPager
+      android:id="@+id/viewpager"
+      android:layout_width="match_parent"
+      android:layout_height="0px"
+      android:layout_weight="1"
+      android:background="@android:color/white" />
+  </LinearLayout>
+
+</RelativeLayout>

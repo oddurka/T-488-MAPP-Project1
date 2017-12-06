@@ -1,58 +1,47 @@
-﻿using Android.App;
-using Android.Widget;
-using Android.OS;
-using DM.MovieApi;
-using System;
-using Android.Views.InputMethods;
-using System.Collections.Generic;
+﻿using DM.MovieApi;
+using Android.App;
 using Android.Content;
-using Newtonsoft.Json;
+using Android.OS;
+using Android.Runtime;
+using Android.Util;
+using Android.Views;
+using Android.Widget;
+using Android.Views.InputMethods;
+using Android.Support.Design.Widget;
+using Android.Support.V4.App;
+using Android.Support.V4.View;
+using Fragment = Android.Support.V4.App.Fragment;
+
 
 namespace MovieSearch.Droid
 {
-    [Activity(Label = "MovieSearch", Theme = "@style/MyTheme", MainLauncher = true, Icon = "@mipmap/icon")]
-    public class MainActivity : Activity
+    [Activity(Label = "Movie Search", Theme = "@style/MyTheme", MainLauncher = true, Icon = "@mipmap/icon")]
+    public class MainActivity : FragmentActivity
     {
         public static FilmCollection Movies { get; set; }
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            
-            MovieDbFactory.RegisterSettings(Movies);
-            
-            // Set our view from the "main" layout resource
+
             SetContentView(Resource.Layout.Main);
 
-            Movies = new FilmCollection();
-
-            var movieInputField = this.FindViewById<EditText>(Resource.Id.movieInputEditText);
-            var searchBtn = this.FindViewById<Button>(Resource.Id.getMovieButton);
-
-            // Get our button from the layout resource,
-            // and attach an event to it
-            searchBtn.Click += /*async*/ (object sender, EventArgs e) =>
+            var fragments = new Fragment[]
             {
-                //Movies._movies = await FilmAPISearches.PopulateMovieListAsync(FilmAPISearches.movieApi, await FilmAPISearches.movieApi.SearchByTitleAsync(movieInputField.Text));
-                var manager = (InputMethodManager)this.GetSystemService(InputMethodService);
-                manager.HideSoftInputFromWindow(movieInputField.WindowToken, 0);
-
-                Movies._movies.Add(new Film()
-                {
-                    Title = "test",
-                    ReleaseYear = 1234,
-                    Runtime = "90",
-                    Genre = new List<string>() { "genre"},
-                    Actors = new List<string>() { "actor"},
-                    Description = "test description",
-                    PosterPath = "test PosterPath"
-                });
-
-                var intent = new Intent(this, typeof(MovieListActivity));
-                intent.PutExtra("movieList", JsonConvert.SerializeObject(Movies._movies));
-                this.StartActivity(intent);
-
+                new SearchFragment(Movies)
             };
+
+            var titles = CharSequence.ArrayFromStringArray(new[] { "Search" });
+
+            var viewPager = FindViewById<ViewPager>(Resource.Id.viewpager);
+            viewPager.Adapter = new TabsFragmentPagerAdapter(SupportFragmentManager, fragments, titles);
+
+            var tabLayout = this.FindViewById<TableLayout>(Resource.Id.sliding_tabs);
+            tabLayout.SetUpWithViewPager(viewPager);
+
+            var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
+            this.SetActionBar(toolbar);
+            this.ActionBar.Title = "My Toolbar";
         }
     }
 }
