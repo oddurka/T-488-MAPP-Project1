@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/listItem"
+    android:id="@+id/movieDetails"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="10dp">
+    android:layout_height="match_parent" >
+
+  <include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+  <RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/main_content"
+    android:layout_below="@id/toolbar">
+
     <ImageView
         android:id="@+id/posterPath"
         android:layout_width="135dp"
         android:layout_height="205dp"
         android:background="@mipmap/placeholder" />
     <TextView
-        android:text="The Shawshank Redemption"
+        android:text="Movie Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
@@ -20,7 +31,7 @@
         android:layout_toRightOf="@+id/posterPath"
         android:layout_marginLeft="10dp" />
     <TextView
-        android:text="XX min | genres"
+        android:text="XX min | Genres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
@@ -31,7 +42,7 @@
         android:layout_toRightOf="@id/posterPath"
         android:layout_marginLeft="10dp" />
     <TextView
-        android:text="description"
+        android:text="Description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif"
@@ -40,4 +51,5 @@
         android:id="@+id/description"
         android:layout_below="@id/posterPath"
         android:layout_marginTop="5dp" />
+  </RelativeLayout>
 </RelativeLayout>

@@ -35,6 +35,7 @@ namespace MovieSearch.Droid
             };
 
             this.ListAdapter = new MovieListAdapter(this, this._movieList);
+
         }
     }
 }

@@ -19,18 +19,16 @@ namespace MovieSearch.Droid
 {
     public class SearchFragment : Fragment
     {
-        private readonly FilmCollection _movieList;
+        private readonly FilmCollection _movieCollection;
 
         public SearchFragment(FilmCollection movieList)
         {
-            this._movieList = movieList;
+            this._movieCollection = movieList;
         }
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var rootView = inflater.Inflate(Resource.Layout.SearchInput, container, false);
-            
-            MovieDbFactory.RegisterSettings(this._movieList);
 
             var movieInputField = rootView.FindViewById<EditText>(Resource.Id.movieInputEditText);
             var searchBtn = rootView.FindViewById<Button>(Resource.Id.getMovieButton);
@@ -48,10 +46,10 @@ namespace MovieSearch.Droid
                 searchBtn.Enabled = false;
 
                 if (movieInputField.Text != "")
-                    this._movieList._movies = await FilmAPISearches.PopulateMovieListAsync(FilmAPISearches.movieApi, await FilmAPISearches.movieApi.SearchByTitleAsync(movieInputField.Text));
+                    this._movieCollection._movies = await FilmAPISearches.PopulateMovieListAsync(FilmAPISearches.movieApi, await FilmAPISearches.movieApi.SearchByTitleAsync(movieInputField.Text));
 
                 var intent = new Intent(this.Context, typeof(MovieListActivity));
-                intent.PutExtra("movieList", JsonConvert.SerializeObject(this._movieList._movies));
+                intent.PutExtra("movieList", JsonConvert.SerializeObject(this._movieCollection._movies));
 
                 this.StartActivity(intent);
                 progressBar.Visibility = Android.Views.ViewStates.Invisible;
@@ -59,7 +57,6 @@ namespace MovieSearch.Droid
             };
 
             return rootView;
-
         }
     }
 }

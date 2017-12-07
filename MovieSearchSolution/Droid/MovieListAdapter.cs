@@ -32,7 +32,7 @@ namespace MovieSearch.Droid
                 view = this._context.LayoutInflater.Inflate(Resource.Layout.MovieListItem, null);
 
             var movie = this._movieList[position];
-            view.FindViewById<TextView>(Resource.Id.title).Text = movie.Title;
+            view.FindViewById<TextView>(Resource.Id.title).Text = movie.Title + "(" + movie.ReleaseYear + ")";
             view.FindViewById<TextView>(Resource.Id.actors).Text = String.Join(", ", movie.Actors);
             Glide.With(this._context).Load(movie.PosterPath).Into(view.FindViewById<ImageView>(Resource.Id.posterPath));
 

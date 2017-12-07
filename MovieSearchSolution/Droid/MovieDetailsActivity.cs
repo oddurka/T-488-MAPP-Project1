@@ -38,6 +38,10 @@ namespace MovieSearch.Droid
             movieRuntimeAndGenre.Text = this._movie.Runtime.ToString() + " min | " + String.Join(", ", this._movie.Genre);
             movieDescription.Text = this._movie.Description;
             Glide.With(this).Load(this._movie.PosterPath).Into(this.FindViewById<ImageView>(Resource.Id.posterPath));
+
+            var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
+            this.SetActionBar(toolbar);
+            this.ActionBar.Title = "Movie Details";
         }
     }
 }
