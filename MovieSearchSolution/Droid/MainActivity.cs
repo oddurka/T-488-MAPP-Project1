@@ -15,7 +15,7 @@ using Fragment = Android.Support.V4.App.Fragment;
 
 namespace MovieSearch.Droid
 {
-    [Activity(Label = "Movie Search", Theme = "@style/MyTheme", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "Movie Search", Theme = "@style/MyTheme")]
     public class MainActivity : FragmentActivity
     {
         public static FilmCollection Movies { get; set; }

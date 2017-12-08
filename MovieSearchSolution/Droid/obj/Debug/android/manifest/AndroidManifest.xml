@@ -4,15 +4,17 @@
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="MovieSearch" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <activity android:icon="@mipmap/icon" android:label="Movie Search" android:theme="@style/MyTheme" android:name="md58a59fe7193c9e402f80a7a500404a919.MainActivity">
+  <application android:label="MovieSearch" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="Movie Search Activity" android:name="md58a59fe7193c9e402f80a7a500404a919.MovieSearchActivity" />
+    <activity android:label="Movie Search" android:theme="@style/MyTheme" android:name="md58a59fe7193c9e402f80a7a500404a919.MainActivity" />
+    <activity android:label="Movie Info" android:theme="@style/MyTheme" android:name="md58a59fe7193c9e402f80a7a500404a919.MovieDetailsActivity" />
+    <activity android:label="Movie List" android:theme="@style/MyTheme" android:name="md58a59fe7193c9e402f80a7a500404a919.MovieListActivity" />
+    <activity android:icon="@mipmap/newicon" android:label="SplashActivity" android:theme="@style/MyTheme.Splash" android:name="md58a59fe7193c9e402f80a7a500404a919.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Movie Info" android:theme="@style/MyTheme" android:name="md58a59fe7193c9e402f80a7a500404a919.MovieDetailsActivity" />
-    <activity android:label="Movie List" android:theme="@style/MyTheme" android:name="md58a59fe7193c9e402f80a7a500404a919.MovieListActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="is.ru.mapp.MovieSearch.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

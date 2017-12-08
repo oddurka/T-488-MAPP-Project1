@@ -14,7 +14,7 @@ using Newtonsoft.Json;
 namespace MovieSearch.Droid
 {
     [Activity(Label = "Movie List", Theme = "@style/MyTheme")]
-    public class MovieListActivity : ListActivity
+    public class MovieListActivity : Activity
     {
         private List<Film> _movieList;
 
@@ -23,19 +23,25 @@ namespace MovieSearch.Droid
             base.OnCreate(savedInstanceState);
 
             // Create your application here
+            SetContentView(Resource.Layout.MovieList);
+
 
             var jsonStr = this.Intent.GetStringExtra("movieList");
             this._movieList = JsonConvert.DeserializeObject<List<Film>>(jsonStr);
 
-            this.ListView.ItemClick += (sender, args) =>
+
+            this.FindViewById<ListView>(Resource.Id.movieListView).ItemClick += (sender, args) =>
             {
                 var intent = new Intent(this, typeof(MovieDetailsActivity));
                 intent.PutExtra("movieDetails", JsonConvert.SerializeObject(this._movieList[args.Position]));
                 this.StartActivity(intent);
             };
 
-            this.ListAdapter = new MovieListAdapter(this, this._movieList);
+            this.FindViewById<ListView>(Resource.Id.movieListView).Adapter = new MovieListAdapter(this, this._movieList);
 
+            var toolbar = this.FindViewById<Toolbar>(Resource.Id.toolbar);
+            this.SetActionBar(toolbar);
+            this.ActionBar.Title = "Movie List";
         }
     }
 }

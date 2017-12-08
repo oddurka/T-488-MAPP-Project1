@@ -19,6 +19,8 @@ namespace MovieSearch.Droid
     public class TopRatedFragment : Fragment
     {
         private readonly FilmCollection _movieCollection;
+        private ListView _listView;
+        private ProgressBar _progressBar;
 
         public TopRatedFragment(FilmCollection movies)
         {
@@ -29,18 +31,24 @@ namespace MovieSearch.Droid
         {
             var rootView = inflater.Inflate(Resource.Layout.TopRated, container, false);
 
+            _listView = rootView.FindViewById<ListView>(Resource.Id.topRatedListView);
+            _progressBar = rootView.FindViewById<ProgressBar>(Resource.Id.progressBar_cyclic);
+
+            _listView.ItemClick += (sender, args) =>
+            {
+                var intent = new Intent(rootView.Context, typeof(MovieDetailsActivity));
+                intent.PutExtra("movieDetails", JsonConvert.SerializeObject(this._movieCollection._movies[args.Position]));
+                this.StartActivity(intent);
+            };
+
             return rootView;
         }
 
         public async System.Threading.Tasks.Task GetTopRatedAsync()
         {
-
             this._movieCollection._movies = await FilmAPISearches.PopulateMovieListAsync(FilmAPISearches.movieApi, await FilmAPISearches.movieApi.GetTopRatedAsync());
-            var intent = new Intent(this.Context, typeof(MovieListActivity));
-            intent.PutExtra("movieList", JsonConvert.SerializeObject(this._movieCollection._movies));
-
-            this.StartActivity(intent);
-
+            _listView.Adapter = new MovieListAdapter(this.Activity, this._movieCollection._movies);
+            _progressBar.Visibility = Android.Views.ViewStates.Gone;
         }
     }
 }

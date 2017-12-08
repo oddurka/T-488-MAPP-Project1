@@ -1,3 +1,11 @@
+MovieSearch.Droid.MovieListFragment, MovieSearch.Droid;md58a59fe7193c9e402f80a7a500404a919.MovieListFragment
+MovieSearch.Droid.MovieListFragment, MovieSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58a59fe7193c9e402f80a7a500404a919.MovieListFragment
+MovieSearch.Droid.MovieListFragment;md58a59fe7193c9e402f80a7a500404a919.MovieListFragment
+moviesearch.droid.MovieListFragment;md58a59fe7193c9e402f80a7a500404a919.MovieListFragment
+MovieSearch.Droid.MovieSearchActivity, MovieSearch.Droid;md58a59fe7193c9e402f80a7a500404a919.MovieSearchActivity
+MovieSearch.Droid.MovieSearchActivity, MovieSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58a59fe7193c9e402f80a7a500404a919.MovieSearchActivity
+MovieSearch.Droid.MovieSearchActivity;md58a59fe7193c9e402f80a7a500404a919.MovieSearchActivity
+moviesearch.droid.MovieSearchActivity;md58a59fe7193c9e402f80a7a500404a919.MovieSearchActivity
 MovieSearch.Droid.MainActivity, MovieSearch.Droid;md58a59fe7193c9e402f80a7a500404a919.MainActivity
 MovieSearch.Droid.MainActivity, MovieSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58a59fe7193c9e402f80a7a500404a919.MainActivity
 MovieSearch.Droid.MainActivity;md58a59fe7193c9e402f80a7a500404a919.MainActivity
@@ -18,6 +26,10 @@ MovieSearch.Droid.SearchFragment, MovieSearch.Droid;md58a59fe7193c9e402f80a7a500
 MovieSearch.Droid.SearchFragment, MovieSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58a59fe7193c9e402f80a7a500404a919.SearchFragment
 MovieSearch.Droid.SearchFragment;md58a59fe7193c9e402f80a7a500404a919.SearchFragment
 moviesearch.droid.SearchFragment;md58a59fe7193c9e402f80a7a500404a919.SearchFragment
+MovieSearch.Droid.SplashActivity, MovieSearch.Droid;md58a59fe7193c9e402f80a7a500404a919.SplashActivity
+MovieSearch.Droid.SplashActivity, MovieSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58a59fe7193c9e402f80a7a500404a919.SplashActivity
+MovieSearch.Droid.SplashActivity;md58a59fe7193c9e402f80a7a500404a919.SplashActivity
+moviesearch.droid.SplashActivity;md58a59fe7193c9e402f80a7a500404a919.SplashActivity
 MovieSearch.Droid.TabsFragmentPagerAdapter, MovieSearch.Droid;md58a59fe7193c9e402f80a7a500404a919.TabsFragmentPagerAdapter
 MovieSearch.Droid.TabsFragmentPagerAdapter, MovieSearch.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58a59fe7193c9e402f80a7a500404a919.TabsFragmentPagerAdapter
 MovieSearch.Droid.TabsFragmentPagerAdapter;md58a59fe7193c9e402f80a7a500404a919.TabsFragmentPagerAdapter

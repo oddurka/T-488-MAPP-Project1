@@ -35,6 +35,7 @@ C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\movielisti
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\moviedetails.xml
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\searchinput.xml
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\toprated.xml
+C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\movielist.xml
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\main.xml
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\values\strings.xml
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-hdpi\icon.png
@@ -47,6 +48,8 @@ C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\values\styles.xml
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-hdpi\shawshank.png
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-hdpi\placeholder.png
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\layout\toolbar.xml
+C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-hdpi\splash.png
+C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\res\mipmap-hdpi\newicon.png
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\R.cs.flag
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\obj\Debug\uploadflags.txt
 C:\T-488-MAPP-Project1\MovieSearchSolution\Droid\bin\Debug\MovieSearch.dll.mdb
